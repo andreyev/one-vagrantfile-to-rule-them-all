@@ -1,0 +1,6 @@
+Vagrantdata.yml
+modules/*
+.vagrant/*
+.tmp/*
+.librarian/*
+Puppetfile.lock

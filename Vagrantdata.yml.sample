@@ -1,0 +1,22 @@
+# path and filename to your PEM file
+general.private_key_path: ''
+# Amount of RAM, in MB. I.e.: 1024 to 1GB
+vb.memory: ''
+# Amount of CPUs. I.e.: 1
+vb.cpus: ''
+# All DO parameters are documented in https://developers.digitalocean.com/documentation/v2/
+# Your access token, get it on https://cloud.digitalocean.com/settings/api/tokens
+do.token: ''
+# Operating System image, i.e.: centos-7-0-x64
+do.image: ''
+# 4 chars DO region, i.e.: nyc2
+do.region: ''
+# Droplet size, i.e. 512MB
+do.size: ''
+# AWS parameters
+aws.access_key_id: ''
+aws.secret_access_key: ''
+aws.keypair_name: ''
+aws.ami: ''
+aws.region: ''
+aws.instance_type: ''
