@@ -1,6 +1,6 @@
 echo "======== Puppet Installer ========"
 
-rpm -qa puppet\* && { echo "Puppet already installed"; exit 0;}
+which puppet && { echo "Puppet already installed"; exit 0;}
 
 OS_MAJ_VERSION=$(rpm -qa \*-release | grep -Ei "centos" | cut -d"-" -f3)
 
