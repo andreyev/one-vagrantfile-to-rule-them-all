@@ -3,5 +3,8 @@ which puppet || {
   [[ -z "$OS_MAJ_VERSION" ]] && { echo "Distro not supported"; exit 1;}
   yum install -y https://yum.puppetlabs.com/puppetlabs-release-pc1-el-"$OS_MAJ_VERSION".noarch.rpm
   yum install -y puppet
-  }
+}
   
+which r10k || {
+  /opt/puppetlabs/puppet/bin/gem install r10k
+}
