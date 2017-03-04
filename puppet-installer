@@ -5,6 +5,6 @@ which puppet || {
   yum install -y puppet
 }
   
-which r10k || {
-  /opt/puppetlabs/puppet/bin/gem install r10k
+which librarian-puppet || {
+  /opt/puppetlabs/puppet/bin/gem install  librarian-puppet
 }
